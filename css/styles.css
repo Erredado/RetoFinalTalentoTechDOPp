@@ -1,0 +1,57 @@
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+.navbar-brand img {
+    margin-right: 10px;
+}
+
+.hero-section {
+    background-image: url('../img/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: rgb(114, 175, 233);
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    padding: 100px 0;
+}
+
+.productos-destacados .card {
+    transition: transform 0.3s ease-in-out;
+    height: 100%;
+}
+
+.productos-destacados .card:hover {
+    transform: scale(1.05);
+}
+
+#carrito-contador {
+    font-size: 0.8em;
+}
+
+.producto-card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.producto-card .card-body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.producto-card .btn {
+    margin-top: auto;
+}
+
+.table-responsive {
+    overflow-x: auto;
+}
+
+@media (max-width: 768px) {
+    .table-responsive {
+        font-size: 0.9em;
+    }
+}
+
